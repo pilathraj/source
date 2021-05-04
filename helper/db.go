@@ -16,8 +16,8 @@ var clientInstanceError error
 var mongoOnce sync.Once
 //I have used below constants just to hold required database config's.
 const (
-	CONNECTIONSTRING = "mongodb+srv://demo:demo123@cluster0.5bxx7.mongodb.net/talentpro?retryWrites=true&w=majority"
-	DB               = "talentpro"
+	CONNECTIONSTRING = "mongodbconnectionstring"
+	DB               = "mydb"
 	COLLECTION           = "col_users"
 )
 //GetMongoClient - Return mongodb connection to work with
