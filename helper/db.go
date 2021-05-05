@@ -21,7 +21,7 @@ var mongoOnce sync.Once
 
 //I have used below constants just to hold required database config's.
 const (
-	CONNECTIONSTRING = "mongodb+srv://demo:demo123@cluster0.5bxx7.mongodb.net/talentpro?retryWrites=true&w=majority"
+	CONNECTIONSTRING = "connectionStringHere"
 	DB               = "talentpro"
 	COLLECTION       = "col_users"
 )
