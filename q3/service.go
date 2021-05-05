@@ -16,7 +16,7 @@ import (
 var collection = helper.GetCollection()
 
 type User struct {
-	ID       primitive.ObjectID `json:"Id" bson:"_id"`
+	ID       primitive.ObjectID `json:"Id,omitempty" bson:"_id,omitempty"`
 	LoginID  string             `json:"loginId" bson:"loginId"`
 	FullName string             `json:"fullName" bson:"fullName"`
 	Enable   bool               `json:"enable" bson:"enable"`
